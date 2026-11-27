@@ -1,0 +1,169 @@
+PROYECTO: ORBITA AGENT — ASISTENTE AUTÓNOMO PARA ANDROID
+
+Actúa como un desarrollador senior especializado en interfaces premium, JavaScript, HTML5, CSS3, inteligencia artificial y desarrollo de aplicaciones Android.
+
+Quiero que diseñes y desarrolles la interfaz visual de una aplicación llamada ORBITA AGENT.
+
+No quiero una página web convencional. Quiero una experiencia futurista, elegante, minimalista y tecnológica, inspirada en los asistentes holográficos de ciencia ficción.
+
+1. IDENTIDAD VISUAL
+
+Nombre: ORBITA AGENT.
+
+Mascota: Hatsune Miku en versión chibi holográfica, como asistente virtual.
+
+Estética:
+
+- Fondo oscuro elegante.
+- Tonalidades negro, azul profundo y turquesa.
+- Efectos luminosos cyan.
+- Transparencias y efecto Glassmorphism.
+- Animaciones suaves.
+- Elementos holográficos.
+- Diseño premium y moderno.
+
+Miku debe aparecer dentro de una esfera circular holográfica flotante, con iluminación turquesa y efectos visuales.
+
+No utilices imágenes oficiales descargadas sin autorización. Si no tienes recursos gráficos, crea una representación visual original de estilo chibi.
+
+2. BURBUJA FLOTANTE
+
+Diseña una burbuja circular que represente a Miku.
+
+Características:
+
+- Forma circular.
+- Imagen o representación de Miku en el centro.
+- Borde luminoso turquesa.
+- Efectos de partículas.
+- Animación de respiración.
+- Movimiento visual suave.
+- Posibilidad de arrastrarla por la pantalla.
+- Al tocarla, debe expandirse en un pequeño panel.
+
+En Android, esta burbuja deberá poder convertirse posteriormente en una ventana flotante nativa mediante Kotlin y permisos de superposición.
+
+IMPORTANTE: La versión HTML debe simular la interacción dentro de la página, sin afirmar que puede superponerse a otras aplicaciones Android.
+
+3. PANEL DEL ASISTENTE
+
+Al tocar la burbuja, abrir un panel compacto con:
+
+- Logo de ORBITA.
+- Nombre ORBITA AGENT.
+- Estado del asistente.
+- Micrófono animado.
+- Campo para escribir instrucciones.
+- Botón de enviar.
+- Indicador de procesamiento.
+- Historial de conversación.
+- Botón para minimizar.
+
+Ejemplo de conversación:
+
+Usuario: «ORBITA, abre Chrome».
+
+ORBITA: «Entendido. Preparando la acción».
+
+Las respuestas deben distinguir claramente entre acciones simuladas y acciones realmente ejecutadas.
+
+4. SISTEMA DE VOZ
+
+Implementa una primera versión con Web Speech API cuando el navegador sea compatible.
+
+Debe incluir:
+
+- Activación del micrófono mediante botón.
+- Reconocimiento de voz en español.
+- Transcripción de lo que dice el usuario.
+- Posibilidad de enviar el texto reconocido.
+- Respuesta mediante síntesis de voz si está disponible.
+- Indicadores visuales cuando esté escuchando.
+
+No solicites acceso al micrófono automáticamente. Solo cuando el usuario pulse el botón.
+
+5. FUNCIONES DEL ASISTENTE
+
+Prepara una estructura JavaScript modular para conectar posteriormente una inteligencia artificial mediante API.
+
+El asistente deberá estar preparado para recibir instrucciones como:
+
+- Abrir Google.
+- Abrir Chrome.
+- Ir a Ajustes.
+- Buscar información.
+- Escribir texto.
+- Interactuar con páginas.
+- Gestionar pestañas.
+
+IMPORTANTE: No finjas que estas acciones funcionan desde HTML. Prepara funciones y puntos de integración para que posteriormente podamos conectarlas con un módulo Android nativo desarrollado en Kotlin mediante AccessibilityService e Intents.
+
+6. CONFIGURACIÓN
+
+Incluye un apartado de configuración con:
+
+- Activar o desactivar Miku.
+- Mostrar u ocultar la burbuja.
+- Activar o desactivar sonidos.
+- Seleccionar voz.
+- Activar o desactivar animaciones.
+- Consultar estado del asistente.
+- Configurar conexión con IA.
+
+Nunca guardes claves API directamente en el HTML.
+
+7. REQUISITOS TÉCNICOS
+
+Quiero un único archivo:
+
+ORBITA-AGENT.html
+
+Utiliza:
+
+- HTML5.
+- CSS3.
+- JavaScript moderno.
+- Diseño responsive.
+- Optimización para Android.
+- Código limpio y organizado.
+- Animaciones optimizadas.
+- Compatibilidad con pantallas pequeñas.
+
+No dependas de frameworks pesados.
+
+No utilices botones decorativos sin funcionamiento.
+
+No dejes enlaces vacíos.
+
+No generes funciones falsas que afirmen ejecutar acciones reales de Android.
+
+8. EXPERIENCIA DE USUARIO
+
+La aplicación debe sentirse como un asistente de inteligencia artificial premium.
+
+Quiero que al abrirla se vea una experiencia visual impresionante, pero sin saturar la pantalla.
+
+Prioriza:
+
+- Velocidad.
+- Elegancia.
+- Facilidad de uso.
+- Animaciones fluidas.
+- Excelente experiencia móvil.
+- Accesibilidad.
+
+9. ENTREGA
+
+Genera el HTML completo y funcional.
+
+No me entregues fragmentos ni ejemplos incompletos.
+
+No omitas secciones.
+
+No sustituyas funcionalidades por botones sin acción.
+
+Incluye comentarios en el código donde posteriormente conectaremos las funciones nativas de Android.
+
+Al terminar, entrega el archivo completo ORBITA-AGENT.html listo para probar en Android.
+
+OBJETIVO FINAL: Crear la interfaz premium de ORBITA AGENT, un asistente de inteligencia artificial con una Miku holográfica flotante, preparado para convertirse posteriormente en una aplicación Android real con control autorizado del dispositivo.
